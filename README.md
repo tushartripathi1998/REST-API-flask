@@ -7,10 +7,10 @@ The request is made using 'curl', a command line too for transferring of data, a
 curl -i http://localhost:5000/todo/api/v1.0/tasks
 curl -i http://localhost:5000/todo/api/v1.0/tasks/2
 
-###`POST`:
+### `POST`:
 curl -i -H "Content-Type: application/json" -X POST -d '{"title":"Read a book", "description":"whatever"}' http://localhost:5000/todo/api/v1.0/tasks
 
-###`PUT`:
+### `PUT`:
 curl -i -H "Content-Type: application/json" -X PUT -d '{"done":true}' http://localhost:5000/todo/api/v1.0/tasks/2
 
 ### `DELETE`:
